@@ -1,2 +1,2 @@
 # CS-499
-Computer Science Capstone Project
+James Durkin's Computer Science Capstone Project
