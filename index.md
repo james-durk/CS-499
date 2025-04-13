@@ -1,7 +1,4 @@
 ---
-layout: default
-title: James Durkin ePortfolio
----
 
 # Welcome to My ePortfolio
 ...
