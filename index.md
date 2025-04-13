@@ -32,7 +32,7 @@ As part of the enhancement process for this portfolio, I conducted a code review
 
 ### Summary of Review
 
-- **Existing Functionality:** Describes the original purpose and behavior of each artifact before enhancement.
+- **Existing Functionality:** Describes the original purpose and behavior of the artifact before enhancement.
 - **Code Analysis:** Identified improvements needed in structure, logic, maintainability, security, and efficiency.
 - **Planned Enhancements:** Each enhancement aligned with one of the three categories:
   - Software Design & Engineering
