@@ -126,7 +126,9 @@ movement directions during traversal. Overcoming these challenges strengthened m
 
 ### View the Code
 [![View Code](https://img.shields.io/badge/View_Code_on_GitHub-black?style=for-the-badge&logo=github)](https://github.com/james-durk/CS-499/tree/main/enhancements/IT140-algorithms)
+
 ---
+
 ## Artifact 3: Databases
 
 ### Narrative
