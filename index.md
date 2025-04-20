@@ -46,20 +46,9 @@ As part of the enhancement process for this portfolio, I conducted a code review
 
 ### Artifact Narrative
 
-The artifact I selected for the Software Design and Engineering category is a Pythonbased text adventure game originally developed in IT-140, Intro to Scripting. The game presents
-a menu-driven narrative in which users explore different rooms, interact with the environment,
-and collect items to progress toward a goal. The original version was created in 2023 and served
-as an introduction to core programming principles such as user input, control flow, and basic
-object-oriented design.
+The first artifact I selected for this ePortfolio is a Python-based text adventure game, initially developed during IT-140: Introduction to Scripting. The project features a menu-driven interface in which players navigate rooms, collect items, and pursue an end goal through exploration and interaction. This was my introduction to foundational programming concepts such as user input, conditionals, loops, and basic object-oriented design.
 
-I selected this artifact for inclusion in my ePortfolio because it clearly demonstrates my
-foundational knowledge of software development and highlights how I’ve grown in my ability to
-write cleaner, more maintainable, and modular code. This project is a great representation of how
-I’ve applied software design principles in a real-world context. In the enhancement process, I
-focused on improving the structure of the code through modularization, adding clear
-documentation, and refining how the game handles user input and state transitions. For example,
-I refactored repetitive conditional logic into reusable functions and implemented more scalable
-data structures to manage rooms and inventory.
+This artifact demonstrates the progression of my skills in software development, particularly in writing modular, maintainable code. For this enhancement, I focused on improving the program’s overall structure and usability. Key improvements included breaking repetitive logic into reusable functions, clarifying input handling, and implementing more scalable data structures to manage room data and inventory. The result is a cleaner, more robust foundation that better supports future development or expansion.
 
 This enhancement directly aligns with the Software Design and Engineering outcome
 identified in Module One. Through this work, I demonstrated my ability to apply software
@@ -89,23 +78,9 @@ collaboration readiness.
 
 ### Narrative
 Narrative – Algorithms and Data Structures Enhancement
-The artifact I selected for this enhancement is a Python-based text adventure game
-originally created during IT-140: Intro to Scripting. The game was initially built as a single script
-where the player could navigate between rooms, collect items, and aim to defeat the Giant King
-Crab after gathering all required gear. The navigation was managed through dictionary lookups
-and the inventory was handled using a basic list structure. This version of the project was created
-early in my degree program and served as a solid foundation for implementing more advanced
-algorithms and structured problem-solving.
+The second artifact I enhanced is the same Python-based text adventure game, which originally served as an introduction to core scripting techniques in IT-140. At the time, the game allowed users to move between rooms and collect items, with logic managed via basic dictionary lookups and list operations. While functional, the initial version lacked strategic depth and offered little in terms of algorithmic complexity.
 
-I chose this artifact for my ePortfolio because it provides a clear, interactive context in
-which to demonstrate practical applications of algorithms and data structures. In its original
-form, the game lacked any intelligent navigation system or strategic support for the player. To
-improve it, I designed and implemented a Breadth-First Search (BFS) algorithm that dynamically
-finds and displays the shortest path to any item in the game world. I also refactored the game's
-room connections into a graph-based structure, where rooms act as nodes and connections as
-edges. These changes not only demonstrate my understanding of graph traversal and algorithm
-implementation, but also greatly improve the player's experience by adding meaningful depth
-and guidance to the gameplay.
+To address this, I enhanced the artifact by implementing a graph-based structure for the game world and introducing a Breadth-First Search (BFS) algorithm to determine and display the shortest path to any item. These changes elevate the project from a basic scripting assignment to one that demonstrates effective use of data structures and algorithmic thinking. This enhancement not only improves gameplay but also highlights my ability to apply graph traversal techniques and modular algorithm design within an existing codebase.
 
 The enhancements I made directly align with the course outcomes I outlined in Module
 One. Specifically, I aimed to meet Course Outcome 3, which involves designing and evaluating
@@ -132,21 +107,9 @@ movement directions during traversal. Overcoming these challenges strengthened m
 ## Artifact 3: Databases
 
 ### Narrative
-The artifact I selected for this enhancement is a text-based adventure game originally
-developed for IT-140: Introduction to Scripting early in my degree program. The project was
-created using Python and involved simple game mechanics such as navigating between rooms,
-collecting items, and fulfilling a win condition by collecting all necessary equipment. It was one
-of the first projects where I practiced foundational programming concepts like conditionals,
-loops, and data storage using Python dictionaries and lists.
+For the third enhancement, I once again worked with the Python-based text adventure game created during IT-140. While the original game successfully implemented basic game mechanics, it lacked the ability to preserve progress between sessions. All state information—inventory, player location, room items—was stored only in memory and lost upon exiting the program.
 
-I chose this artifact for inclusion in my ePortfolio because it provided a clean, scalable
-foundation to demonstrate multiple enhancement categories—including software engineering,
-algorithms and data structures, and databases—within a single cohesive program. For the
-database enhancement specifically, I saw an opportunity to improve the game’s functionality and
-user experience by implementing a persistent save and load system. Originally, the game stored
-all progress in memory only; once the program closed, all player data and progress were lost. To
-address this limitation, I integrated an SQLite-based solution to allow players to save their
-current room, inventory, and room item states and later resume from where they left off.
+To solve this, I added database functionality using SQLite to support saving and loading game progress. I implemented a SaveManager class that handles persistent storage of player data, including current room, inventory, and dynamic item states in each room. This enhancement demonstrates my ability to integrate real-world database solutions into a scripting-based application. It also marks a major step in evolving the project from a one-time execution script to a more complete, user-friendly game with persistent state.
 
 While I had initially proposed using MongoDB for this enhancement, I pivoted to SQLite
 for its simplicity, portability, and built-in support in Python, which made it more appropriate for
