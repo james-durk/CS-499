@@ -89,7 +89,6 @@ collaboration readiness.
 ## Artifact 2: Algorithms & Data Structures
 
 ### Narrative
-Narrative – Algorithms and Data Structures Enhancement
 The second artifact I enhanced is the same Python-based text adventure game, which originally served as an introduction to core scripting techniques in IT-140. At the time, the game allowed users to move between rooms and collect items, with logic managed via basic dictionary lookups and list operations. While functional, the initial version lacked strategic depth and offered little in terms of algorithmic complexity.
 
 To address this, I enhanced the artifact by implementing a graph-based structure for the game world and introducing a Breadth-First Search (BFS) algorithm to determine and display the shortest path to any item. These changes elevate the project from a basic scripting assignment to one that demonstrates effective use of data structures and algorithmic thinking. This enhancement not only improves gameplay but also highlights my ability to apply graph traversal techniques and modular algorithm design within an existing codebase.
@@ -108,7 +107,7 @@ concerns—by isolating pathfinding into its own module. A key challenge was bal
 gameplay simplicity with functional complexity; I had to decide how much information to
 provide to the player without compromising the spirit of the game. Ultimately, I chose to include
 directional guidance in the pathfinding output, which required me to track both rooms and
-movement directions during traversal. Overcoming these challenges strengthened my problemsolving mindset and gave me hands-on experience applying data structures in a meaningful way.
+movement directions during traversal. Overcoming these challenges strengthened my problem solving mindset and gave me hands-on experience applying data structures in a meaningful way.
 
 
 ### View the Code
