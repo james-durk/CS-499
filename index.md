@@ -56,7 +56,7 @@ As part of the enhancement process for this portfolio, I conducted a code review
 
 ## Artifact 1: Software Design & Engineering
 
-### Artifact Narrative
+### Narrative
 
 The first artifact I selected for this ePortfolio is a Python-based text adventure game, initially developed during IT-140: Introduction to Scripting. The project features a menu-driven interface in which players navigate rooms, collect items, and pursue an end goal through exploration and interaction. This was my introduction to foundational programming concepts such as user input, conditionals, loops, and basic object-oriented design.
 
