@@ -13,6 +13,7 @@
 - [Code Review](#code-review)
 - [Artifact 1: Software Design & Engineering](#artifact-1-software-design--engineering)
 - [Artifact 2: Algorithms & Data Structures](#artifact-2-algorithms--data-structures)
+- [Artifact 3: Databases](#artifact-3-databases)
 
 ---
 
@@ -176,5 +177,5 @@ practices involving data persistence, user state management, and game design pri
 
 
 ### View the Code
-[![View Code](https://img.shields.io/badge/View_Code_on_GitHub-black?style=for-the-badge&logo=github)](https://github.com/james-durk/CS-499/tree/main/enhancements/IT140-algorithms)
+[![View Code](https://img.shields.io/badge/View_Code_on_GitHub-black?style=for-the-badge&logo=github)](https://github.com/james-durk/CS-499/tree/main/enhancements/IT140-databases)
 
